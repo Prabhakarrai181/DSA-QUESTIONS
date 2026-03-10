@@ -16,11 +16,6 @@ int main(){
         cin>>nums2[i];
     }
     
-    for(int i=0;i<nums1.size();i++){
-        if(nums1[i]<nums2[i]){
-            nums1[i]==nums2[i];
-        }
-    }
     int i=m-1;
     int j=n-1;
 
@@ -28,7 +23,7 @@ int main(){
 
     while(j>=0){
 
-        if((nums1[i]>nums2[j]) && i>=0){
+       if(i>=0 && nums1[i] > nums2[j]){
 
             nums1[k]=nums1[i];
             k--;
