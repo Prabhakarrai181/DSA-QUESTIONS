@@ -20,20 +20,17 @@ int main(){
     int right=c-1;
 
     while(top<=bottom && left<=right){
-
-        // top row
+       
         for(int i=left;i<=right;i++){
             cout<<mat[top][i]<<" ";
         }
         top++;
-
-        // right column
+       
         for(int i=top;i<=bottom;i++){
             cout<<mat[i][right]<<" ";
         }
         right--;
-
-        // bottom row
+     
         if(top<=bottom){
             for(int i=right;i>=left;i--){
                 cout<<mat[bottom][i]<<" ";
@@ -41,7 +38,6 @@ int main(){
             bottom--;
         }
 
-        // left column
         if(left<=right){
             for(int i=bottom;i>=top;i--){
                 cout<<mat[i][left]<<" ";

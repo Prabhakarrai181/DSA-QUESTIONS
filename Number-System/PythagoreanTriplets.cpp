@@ -12,7 +12,6 @@ int main()
         {
             for (int c = b + 1; c <= n; c++)
             {
-
                 if (a * a + b * b == c * c)
                 {
                     cout << a << " " << b << " " << c;

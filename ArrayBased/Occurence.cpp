@@ -23,7 +23,7 @@ int main(){
         }
 
     }
-     cout<<arr[n-1]<<" occurs "<<count<<" times"<<endl;
+    cout<<arr[n-1]<<" occurs "<<count<<" times"<<endl;
 
 
 
